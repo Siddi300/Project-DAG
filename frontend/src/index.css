@@ -1,0 +1,50 @@
+/* index.css*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.swal-popup {
+  border-radius: 14px !important;
+  padding: 20px 24px !important;
+  font-family: Inter, system-ui, sans-serif;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.swal-title {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #111827 !important;
+}
+
+.swal-html {
+  font-size: 14px !important;
+  color: #374151 !important;
+  line-height: 1.6;
+}
+
+.swal-confirm-btn {
+  background: #6366f1 !important;
+  border-radius: 8px !important;
+  padding: 10px 22px !important;
+  font-weight: 600 !important;
+}
+
+.swal-confirm-btn:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.35) !important;
+}
+
+.swal-icon {
+  transform: scale(0.9);
+}
